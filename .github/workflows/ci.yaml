@@ -13,3 +13,5 @@ jobs:
 
       - name: Show Node version
         run: node -v
+      - name: List files
+        run: ls -la
