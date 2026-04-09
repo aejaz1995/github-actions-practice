@@ -23,3 +23,6 @@ jobs:
         run: npm test
       - name: Run lint
         run: npm run lint
+    on:
+      pull_request:
+        branches: [main]
